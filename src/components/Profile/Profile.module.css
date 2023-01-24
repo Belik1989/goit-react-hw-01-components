@@ -34,7 +34,7 @@
 }
 .location{
     font-family:'Verdana', sans-serif ;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     padding-top: 10px;
     color: darkgrey;
@@ -52,9 +52,10 @@
     justify-content: space-between;
     align-items: center;
     border-top:solid 5px;
-    border-color:rgb(139, 138, 138);
+    border-color:rgb(159, 157, 157);
     padding: 15px;
     width: 33.33%;
+    background-color: rgb(202, 204, 205);
     /* justify-content: space-around */
 }
 .stats li:not(:last-child){
