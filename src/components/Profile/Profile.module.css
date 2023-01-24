@@ -1,0 +1,71 @@
+.profile{
+    display: block;
+    border:solid 5px;
+    border-color:rgb(139, 138, 138);
+    max-width: 350px;
+    margin-inline:auto ;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.avatar{
+    max-width: 250px;
+    max-height: 300px;
+}
+.name{
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+}
+.tag{
+    font-family: 'Lucida Sans',sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    color: darkgrey;
+}
+.location{
+    font-family:'Verdana', sans-serif ;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    color: darkgrey;
+}
+.stats{
+    list-style:none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    
+}
+.stats li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top:solid 5px;
+    border-color:rgb(139, 138, 138);
+    padding: 15px;
+    width: 33.33%;
+    /* justify-content: space-around */
+}
+.stats li:not(:last-child){
+    border-right:solid 5px;
+    border-color:rgb(139, 138, 138);
+}
+.quantity{
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 20px;
+}
+.label{
+    font-family: 'Lucida Sans',sans-serif;
+    font-size: 15px;
+}
