@@ -9,6 +9,7 @@
     border: solid 2px;
     border-color: rgb(139, 138, 138);
     /* gap: 20px; */
+    border-radius: 10px;
 }
 .item{
     display: flex;
@@ -26,6 +27,7 @@
 }
 .item:nth-of-type(1) {
     background-color:#EC7063;
+    border-radius: 8px 0px 0px 8px ;
     }
     
 .item:nth-of-type(2) {
@@ -39,6 +41,7 @@
     }
 .item:nth-of-type(5) {
     background-color:#EDBB99;
+    border-radius: 0px 8px 8px 0px;
 }
 .label{
     font-family: 'Oxygen'-apple-system;
