@@ -6,10 +6,12 @@
     align-items: center;
     margin: 0;
     padding-left: 0;
-    border: solid 2px;
-    border-color: rgb(139, 138, 138);
+    /* border: solid 2px;
+    border-color: rgb(139, 138, 138); */
     /* gap: 20px; */
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 20px;
 }
 .item{
     display: flex;
@@ -22,8 +24,8 @@
     gap: 10px;
     }
 .item:not(:last-child){
-    border-right:solid 2px;
-    border-color:  rgb(139, 138, 138);
+    /* border-right:solid 2px;
+    border-color:  rgb(139, 138, 138); */
 }
 .item:nth-of-type(1) {
     background-color:#EC7063;
