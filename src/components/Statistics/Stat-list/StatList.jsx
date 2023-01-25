@@ -1,4 +1,5 @@
 import css from './StatList.module.css'
+import PropTypes from 'prop-types';
 
 export const StatList = ({stats}) => {
     return(
@@ -13,3 +14,7 @@ export const StatList = ({stats}) => {
             
             );
 };
+
+StatList.propTypes = {
+    stats:PropTypes.objectOf(PropTypes.shape).isRequired
+}
