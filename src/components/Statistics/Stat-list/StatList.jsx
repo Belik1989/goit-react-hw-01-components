@@ -15,6 +15,13 @@ export const StatList = ({stats}) => {
             );
 };
 
+
 StatList.propTypes = {
-    stats:PropTypes.objectOf(PropTypes.shape).isRequired
+    stats:PropTypes.arrayOf(
+        PropTypes.exact({
+            label: PropTypes.string.isRequired,
+            percentage: PropTypes.number.isRequired,
+            id: PropTypes.string.isRequired
+        })
+    )
 }

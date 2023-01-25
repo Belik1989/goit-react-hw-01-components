@@ -1,0 +1,9 @@
+.friend__list {
+    list-style: none;
+    /* border:solid 3px ;
+    border-color: aquamarine; */
+    max-width: 300px;
+    padding-left: 0;
+    margin-inline: auto;
+    
+}
