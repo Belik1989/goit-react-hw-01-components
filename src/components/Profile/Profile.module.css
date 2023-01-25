@@ -44,6 +44,7 @@
     display: flex;
     padding: 0;
     margin-bottom: 0;
+    /* border-radius: 15px; */
     
 }
 .stats li{
