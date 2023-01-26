@@ -12,16 +12,18 @@
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 20px;
+    width: 90%;
 }
 .item{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    height: 100%;
-    /* width: 20%; */
+    /* padding: 15px; */
+    width: 20%;
     gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     }
 .item:not(:last-child){
     /* border-right:solid 2px;
