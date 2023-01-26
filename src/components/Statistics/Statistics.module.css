@@ -8,9 +8,9 @@
 
 .title{
     font-family:'Verdana', sans-serif ;
-    font-size: 50px;
+    font-size: 40px;
     font-variant:small-caps;
     color: rgb(220, 101, 166);
     text-shadow: 2px 0 rgb(139, 138, 138), 0 2px rgb(139, 138, 138), 2px 0 rgb(139, 138, 138), 0 2px rgb(139, 138, 138);
-    margin-bottom: 15px;
+    margin-bottom: 15px;   
 }
