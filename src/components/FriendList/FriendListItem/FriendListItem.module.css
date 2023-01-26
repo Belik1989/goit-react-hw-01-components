@@ -1,8 +1,8 @@
 .list__item {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    max-width: 300px;
+    /* justify-content: space-evenly; */
+    width:auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 7px;
 
@@ -11,9 +11,29 @@
     margin-bottom: 15px;
 }
 .status__online{
-    color: #0EE458;
+    fill: white;
+    padding: 5px;
+    background-color:#0EE458;
+    border-radius: 50px;
+    margin-left: 15px;
 }
 .status__offline{
-    color: #E41B0E;
+    fill: white;
+    padding: 5px;
+    background-color:#E41B0E;
+    border-radius: 50px;
+    margin-left: 15px;
 }
-
+.friend__avatar{
+    box-shadow: hwb(0 0% 100% / 0.349) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: #D6F9FA;
+}
+.friend__name{
+    font-family:  'Copperplate', fantasy;
+    font-size: 20px;
+    margin-left: 25px;
+    letter-spacing: 2px;
+}

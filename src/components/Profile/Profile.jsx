@@ -1,6 +1,7 @@
 import css from './Profile.module.css';
 import PropTypes from 'prop-types';
-// import { SlLike } from "react-icons/sl";
+import {BsFillPeopleFill, BsEyeFill } from "react-icons/bs";
+import {AiTwotoneLike} from "react-icons/ai";
 
 export const Profile = ({avatar, username, tag, location, stats}) => {
     return (
@@ -18,15 +19,15 @@ export const Profile = ({avatar, username, tag, location, stats}) => {
 
         <ul className={css.stats}>
         <li>
-            <span className={css.label}>Followers:</span>
+        <BsFillPeopleFill className={css.label}/>
             <span className={css.quantity}>{stats.followers}</span>
         </li>
         <li>
-            <span className={css.label}>Views:</span>
+        <BsEyeFill className={css.label}/>
             <span className={css.quantity}>{stats.views}</span>
         </li>
         <li>
-            <span className={css.label}>Likes:</span>
+            <AiTwotoneLike className={css.label}/>
         <span className={css.quantity}>{stats.likes}</span>
         </li>
         </ul>
