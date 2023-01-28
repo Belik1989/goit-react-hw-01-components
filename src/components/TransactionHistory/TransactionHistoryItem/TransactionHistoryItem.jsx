@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import css from './TransactionHistoryItem.module.css'
 export const TransactionHistoryItem = ({type, amount, currency}) => {
+    let typeToUpperCase = type.toUpperCase();
     return (
         <tr>
-    <td className = {css.type}>{type}</td>
+    <td className = {css.type}>{typeToUpperCase}</td>
     <td className = {css.amount}>{amount}</td>
     <td className = {css.currency}>{currency}</td>
         </tr>
