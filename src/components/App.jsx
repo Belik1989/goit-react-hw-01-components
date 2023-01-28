@@ -1,32 +1,29 @@
-import { Profile } from "./Profile/Profile";
-import { Statistics } from "./Statistics/Statistics";
-import { StatList } from "./Statistics/Stat-list/StatList";
-import {FriendList} from './FriendList/FriendList';
-import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
-import data from '../components/Statistics/data.json';
-import user from './Profile/user.json';
-import friends from '../components/FriendList/friends.json'
-import items from './TransactionHistory/transactions.json'
+import { Profile } from './Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
+import { StatList } from './Statistics/Stat-list/StatList';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+
+import data from '../data/data.json';
+import user from '../data/user.json';
+import friends from '../data//friends.json';
+import items from '../data/transactions.json';
 
 export const App = () => {
   return (
     <div className="App-container">
-      <Profile key={user.username} 
-              avatar = {user.avatar}
-              username= {user.username}
-              tag = {user.tag}
-              location = {user.location}
-              stats = {user.stats}
-          />
-      <Statistics title = "Upload stats">
-        <StatList
-              key = {data.id}
-              stats = {data}
-        />
+      <Profile
+        avatar={user.avatar}
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        stats={user.stats}
+      />
+      <Statistics title="Upload stats">
+        <StatList stats={data} />
       </Statistics>
-      <FriendList key = {friends.id} friends={friends} />
-      <TransactionHistory key = {items.id} items ={items}/>
+      <FriendList friends={friends} />
+      <TransactionHistory items={items} />
     </div>
-    
   );
-}
+};
