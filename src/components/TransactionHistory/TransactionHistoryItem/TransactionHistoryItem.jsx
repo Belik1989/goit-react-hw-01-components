@@ -8,8 +8,7 @@ export const TransactionHistoryItem = ({type, amount, currency}) => {
     <td className = {css.amount}>{amount}</td>
     <td className = {css.currency}>{currency}</td>
         </tr>
-    
-    )
+        )
 } 
 
 TransactionHistoryItem.propTypes = {
