@@ -2,37 +2,42 @@
     display: flex;
     align-items: center;
     /* justify-content: space-evenly; */
-    width:auto;
+    width: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 7px;
 
 }
-.list__item:not(:last-child){
+
+.list__item:not(:last-child) {
     margin-bottom: 15px;
 }
-.status__online{
+
+.status__online {
     fill: white;
     padding: 5px;
-    background-color:#0EE458;
+    background-color: #0EE458;
     border-radius: 50px;
     margin-left: 15px;
 }
-.status__offline{
+
+.status__offline {
     fill: white;
     padding: 5px;
-    background-color:#E41B0E;
+    background-color: #E41B0E;
     border-radius: 50px;
     margin-left: 15px;
 }
-.friend__avatar{
+
+.friend__avatar {
     box-shadow: hwb(0 0% 100% / 0.349) 0px 5px 15px;
     padding: 10px;
     border-radius: 50%;
     margin-left: 20px;
     background-color: #D6F9FA;
 }
-.friend__name{
-    font-family:  'Copperplate', fantasy;
+
+.friend__name {
+    font-family: 'Copperplate', fantasy;
     font-size: 20px;
     margin-left: 25px;
     letter-spacing: 2px;

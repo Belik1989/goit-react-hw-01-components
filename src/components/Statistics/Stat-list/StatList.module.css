@@ -14,7 +14,8 @@
     margin-bottom: 20px;
     width: 70%;
 }
-.item{
+
+.item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,36 +25,44 @@
     gap: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    }
-.item:not(:last-child){
+}
+
+.item:not(:last-child) {
     /* border-right:solid 2px;
     border-color:  rgb(139, 138, 138); */
 }
+
 .item:nth-of-type(1) {
-    background-color:#EC7063;
-    border-radius: 8px 0px 0px 8px ;
-    }
+    background-color: #EC7063;
+    border-radius: 8px 0px 0px 8px;
+}
+
 .item:nth-of-type(2) {
     background-color: #8E44AD;
-    }
+}
+
 .item:nth-of-type(3) {
     background-color: #F1C40F;
-    }
+}
+
 .item:nth-of-type(4) {
     background-color: #7DCEA0;
-    }
+}
+
 .item:nth-of-type(5) {
-    background-color:#EDBB99;
+    background-color: #EDBB99;
     border-radius: 0px 8px 8px 0px;
 }
-.label{
-    font-family: 'Oxygen'-apple-system;
+
+.label {
+    font-family: 'Oxygen' -apple-system;
     font-size: 20px;
     font-weight: 400;
-    color:white ;
+    color: white;
 }
-.percentage{
+
+.percentage {
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
-    color:white;
+    color: white;
 }
